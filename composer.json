@@ -1,0 +1,6 @@
+{
+    "name": "bitcoin app",
+    "require": {
+        "slim/slim": "2.2.0"
+    }
+}
