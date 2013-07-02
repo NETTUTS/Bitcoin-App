@@ -56,7 +56,7 @@ $app->post('/ipn', function () use ($app) {
     if ($invoiceHash === $hash && $status == 1) {
         //Mandrill URL + API key
         $url = "https://mandrillapp.com/api/1.0/messages/send.json";
-        $apiKey = "_siD-APIKEY";
+        $apiKey = "Mandrill_APIKEY";
 
         //Get Email Template
         $view = $app->view();
