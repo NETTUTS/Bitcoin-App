@@ -29,7 +29,7 @@ $app->post('/', function () use ($app) {
             "currency" => "USD",
             "item" => "Book PDF",
             "custom" => array(
-                "users_email" => $email
+                "email" => $email
             )
         ));
         $invoiceUrl = curl_exec($ch);
